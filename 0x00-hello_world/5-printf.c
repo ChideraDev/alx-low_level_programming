@@ -12,4 +12,5 @@ int main(void)
 	char my_char[] = "with proper grammar, but the outcome is a piece of art,\n";
 
 	printf("%s', my_char);
-	reurn (0);
+	return (0);
+}
