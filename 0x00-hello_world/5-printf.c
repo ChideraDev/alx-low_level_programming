@@ -1,4 +1,4 @@
-#include <stdio.h>  
+#include <studio.h>
 
 /**
  * main - Entry point
@@ -7,10 +7,9 @@
 
 int main(void)
 {
-	/* This function prints out text using the printf functio */
+	/* This function prints out text using the printf function */
 
-        char my_char[] = "with proper grammar, but the outcome is a piece of art,\n";
+	char my_char[] = "with proper grammar, but the outcome is a piece of art,\n";
 
-        printf("%s", my_char);
-	return(0);
-}
+	printf("%s', my_char);
+	reurn (0);
