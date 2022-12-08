@@ -9,7 +9,7 @@ int main(void)
 {
 	/* This function print out text using the printf function */
 
-	char my_char[] = "with proper grammar , but the outcome is a piece of art,\n";
+	char my_char[] = "with proper grammar, but the outcome is a piece of art,\n";
 
 	printf("%s", my_char);
 	return (0);
