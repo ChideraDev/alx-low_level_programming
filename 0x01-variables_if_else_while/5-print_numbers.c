@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- *  Function to return single digits between 0-10 
+ * Function to return single digits between 0-10 
  *
- *  Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
