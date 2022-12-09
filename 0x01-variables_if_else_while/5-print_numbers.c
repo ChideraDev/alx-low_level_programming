@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/* Function to return single digits between 0-10 */
+/** main - Entry point
+ *
+ *  Function to return single digits between 0-10 
+ *
+ *  Return: Always 0 (success)
+ *
+ */
 int main(void)
 {
 	int a;
@@ -10,5 +16,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
