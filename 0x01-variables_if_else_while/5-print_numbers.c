@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Function to return single digits between 0-10 */
 int main(void)
 {
 	int a;
