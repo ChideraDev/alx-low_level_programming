@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - Entry point
+/**
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
@@ -13,7 +14,7 @@ int main(void)
 	{
 		putchar(c);
 	}
-	for(c = 'A'; c <= 'z' ; ++c)
+	for(c = 'A'; c <= 'Z' ; ++c)
 	{
 		putchar(c);
 	}
