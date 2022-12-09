@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-/** main - Entry point
- *
+/**
+ * main - Entry point
  *  Function to return single digits between 0-10 
  *
  *  Return: Always 0 (success)
- *
  */
 int main(void)
 {
