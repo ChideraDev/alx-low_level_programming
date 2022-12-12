@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	for (int a = 1; a <= 85; a++)
+	int a;
+	for (a = 1; a <= 85; a++)
 	{
 		int tens = a / 10;
 		int ones = a % 10;
