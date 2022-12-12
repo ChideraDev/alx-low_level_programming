@@ -11,7 +11,7 @@ int main(void)
 	int start = 1;
 	int end = 85;
 
-	for (int a = start; a <= end; a++)
+	for (int a = 1; a <= end; a++)
 	{
 		int tens = a / 10;
 		int ones = a % 10;
