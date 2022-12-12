@@ -8,10 +8,7 @@
 
 int main(void)
 {
-	int start = 1;
-	int end = 85;
-
-	for (int a = 1; a <= end; a++)
+	for (int a = 1; a <= 85; a++)
 	{
 		int tens = a / 10;
 		int ones = a % 10;
@@ -19,7 +16,7 @@ int main(void)
 		putchar('0' + tens);
 		putchar('0' + ones);
 
-		if (a < end)
+		if (a < 85)
 		{
 			putchar(',');
 			putchar(' ');
