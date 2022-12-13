@@ -1,5 +1,5 @@
 /**
- * -isalpha - checks for alphabetical character
+ * _isalpha - checks for alphabetical character
  * @c: the character
  * Return: 1 if is an alphabet, 0 if not
  */
