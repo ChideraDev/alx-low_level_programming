@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - This function prints the English alphabets in 10 lines
+ * print_alphabet_x10.c - This function prints the English alphabets in 10 lines
  *
  * Return: Empty/Nothing
  */
