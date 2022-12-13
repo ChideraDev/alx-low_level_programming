@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10.c - This function prints the English alphabets.
+ * print_alphabet_x10 - This function prints the English alphabets.
  *
  * Return: Empty/Nothing
  */
