@@ -5,7 +5,7 @@
  */
 int _abs(int t)
 {
-	if (n < 0)
+	if (t < 0)
 		return (-t);
 	else
 		retun (t);
