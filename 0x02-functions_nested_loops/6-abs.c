@@ -8,5 +8,5 @@ int _abs(int t)
 	if (t < 0)
 		return (-t);
 	else
-		retun (t);
+		return (t);
 }
