@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints first 50 Fibonacci numbers
- * with 1 and 2
- * 
- * Return: Always 0.
- */
+* main - Prints first 50 Fibonacci numbers, starting with 1 and 2
+*
+* Return: Always 0.
+*/
 
 int main(void)
 {
@@ -23,7 +22,8 @@ n2 = sum;
 if (count == 49)
 printf("\n");
 else
-printf(",");
-}
+printf(", "); }
+
 return (0);}
+
 
