@@ -21,7 +21,7 @@ if ((fibsum % 2) == 0)
 tot_sum += fibsum;
 
 fib1 = fib2;
-fib2 = fibsum;}
+fib2 = fibsum; }
 printf("%.0f\n", tot_sum);
 
-return (0);}
+return (0); }
