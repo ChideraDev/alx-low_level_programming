@@ -24,6 +24,5 @@ printf("\n");
 else
 printf(", "); }
 
-return (0);}
-
-
+return (0);
+}
