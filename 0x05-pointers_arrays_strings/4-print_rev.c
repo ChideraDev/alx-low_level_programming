@@ -16,7 +16,7 @@ for (j = 0; s[j] != '\0'; j++)
 count++;
 }
         
-int usable_length = count - 1;
+int usable_length = count -1;
 int i;
     
 for (i = usable_length; i >= 0; i--)
