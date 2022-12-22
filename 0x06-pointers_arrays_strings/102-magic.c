@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* main - function to complete it's code
+*
+* Return: Always returns 0
+*/
 int main(void)
 {
 	int n;
