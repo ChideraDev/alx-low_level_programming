@@ -2,3 +2,4 @@ This function appends the src string to the dest string, overwriting the termina
 function that copies a string.
 function that compares two strings.
 function that reverses the content of an array of integers.
+function that changes all lowercase letters of a string to uppercase.
