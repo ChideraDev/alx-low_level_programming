@@ -2,3 +2,4 @@ The _memset() function fills the first n bytes of the memory area pointed to by 
 The _memcpy() function copies n bytes from memory area src to memory area dest, returns a pointer to dest
 Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
 Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept, returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
