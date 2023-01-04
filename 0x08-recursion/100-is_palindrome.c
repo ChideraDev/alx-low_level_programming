@@ -6,13 +6,12 @@
 */
 int strlen_recursion(char *str)
 {
-        if (*str == '\0')
-                return (0);
+	if (*str == '\0')
+	return (0);
 
-        str++;
-        return (strlen_recursion(str) + 1);
+	str++;
+	return (strlen_recursion(str) + 1);
 }
-
 /**
 * palindrome_validator - function to check the string length at both ends
 * @str: string to check if it is a palindrome
@@ -20,14 +19,13 @@ int strlen_recursion(char *str)
 * @counter: number of recursion
 * Return: 1 if true or 0 if false
 */
-
 int palindrome_validator(char *str, int length, int counter)
 {
-        if (counter >= length)
-                return (1);
-        else if (str[length] == str[counter])
-                return (palindrome_validator(str, (length - 1), (counter + 1)));
-        return (0);
+	if (counter >= length)
+	return (1);
+	else if (str[length] == str[counter])
+	return (palindrome_validator(str, (length - 1), (counter + 1)));
+	return (0);
 }
 /**
 * is_palindrome - function to check if a string is a palindrome
@@ -36,8 +34,8 @@ int palindrome_validator(char *str, int length, int counter)
 */
 int is_palindrome(char *str)
 {
-        int length = strlen_recursion(str);
-        int counter = 0;
-
-        return (palindrome_validator(str, (length - 1), counter));
+	int length = strlen_recursion(str);
+	int counter = 0;
+	
+	return (palindrome_validator(str, (length - 1), counter));
 }
