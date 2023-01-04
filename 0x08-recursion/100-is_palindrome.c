@@ -36,6 +36,6 @@ int is_palindrome(char *str)
 {
 	int length = strlen_recursion(str);
 	int counter = 0;
-	
+
 	return (palindrome_validator(str, (length - 1), counter));
 }
