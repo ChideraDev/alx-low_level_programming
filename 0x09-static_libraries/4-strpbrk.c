@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
-* _strpbrk - Entry point
-* @s: input
-* @accept: input
-* Return: Always 0 (Success)
+* _strpbrk - prints the consecutive characters of s1 that are in s2
+* @s: source string
+* @accept: searching string
+* Return: new string
 */
 char *_strpbrk(char *s, char *accept)
 {
@@ -18,6 +19,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-
 	return ('\0');
 }
