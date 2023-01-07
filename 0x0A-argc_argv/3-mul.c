@@ -9,7 +9,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int a,b;
+	int a, b;
 
 	if (argc == 3)
 	{
@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	printf("Error\n");
-	return(1);
+	return (1);
 }
